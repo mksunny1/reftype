@@ -1,6 +1,6 @@
 {
   "name": "reftype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple reactivity library previously included in `deleight`",
   "type": "module",
   "main": "dist/esm/reftype.js",
@@ -11,6 +11,11 @@
       "default": "./dist/reftype/esm/reftype.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mksunny1/reftype"
+  },
+  "homepage": "https://github.com/mksunny1/reftype",
   "scripts": {
     "test": "node --experimental-modules --test"
   },

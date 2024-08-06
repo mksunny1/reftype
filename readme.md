@@ -17,7 +17,7 @@ Reftype aims to relieve the burden on the JavaScript programmer to know about th
 ```
 
 ```js
-import { RefType } from 'deleight/reftype'
+import { RefType } from 'reftype'
 
 const refs = {
     mercury: 'Planet mercury',

@@ -1,6 +1,6 @@
 {
   "name": "reftype",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple reactivity library previously included in `deleight`",
   "type": "module",
   "main": "dist/esm/reftype.js",

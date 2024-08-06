@@ -1,0 +1,30 @@
+{
+  "name": "reftype",
+  "version": "1.0.0",
+  "description": "A simple reactivity library previously included in `deleight`",
+  "type": "module",
+  "main": "dist/esm/reftype.js",
+  "types": "./dist/esm/reftype.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/reftype/cjs/reftype.js",
+      "default": "./dist/reftype/esm/reftype.js"
+    }
+  },
+  "scripts": {
+    "test": "node --experimental-modules --test"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "vanilla",
+    "reactivity",
+    "Reftype"
+  ],
+  "author": "Mark Sun",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^24.1.1"
+  }
+}
